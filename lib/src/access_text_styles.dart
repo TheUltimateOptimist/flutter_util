@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 extension AccessTextStyles on BuildContext{
   TextStyle get displayLarge {
-    return Theme.of(this).textTheme.displayMedium!;
+    return Theme.of(this).textTheme.displayLarge!;
   }
 
   TextStyle get displayMedium {
